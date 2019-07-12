@@ -1,0 +1,43 @@
+body{
+	background: lightblue;
+}
+
+.button_css
+{
+	background-color: lightblue;
+  	border: black;
+  	color: black;
+  	padding: 10px ;
+  	text-decoration: none;
+  	margin: 4px ;
+  	cursor: pointer;
+}
+
+.center 
+{
+  margin: auto;
+  width: 40%;
+  border: 2px solid black;
+  padding: 10px;
+  background: white;
+  align-content: center;
+  .clearfix 
+  {
+  		overflow: auto;
+   }
+
+}
+#right{
+	float: right;
+	margin-right: 200px;
+}
+h1 {
+     text-align: center;
+}
+table {
+  border-collapse: collapse;
+}
+
+table, td, th {
+  border: 1px solid black;
+}
