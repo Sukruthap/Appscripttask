@@ -71,7 +71,7 @@ def deleteuser(request,pid):
         # print userdata
         return render(request, 'adminuser.html', {'userdata': userdata})
     except User.DoesNotExist:
-        print "I am in except"
+        # print "I am in except"
         userdata = Profile.objects.all()
         # print userdata
         return render(request, 'adminuser.html', {'userdata': userdata})
